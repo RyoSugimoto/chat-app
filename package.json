@@ -1,0 +1,19 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "pnpm --parallel run dev"
+  },
+  "license": "UNLICENSED",
+  "packageManager": "pnpm@10.18.0",
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.4",
+    "@types/node": "^24.10.0",
+    "typescript": "~5.9.3"
+  },
+  "workspaces": [
+    "server",
+    "client",
+    "shared"
+  ]
+}
