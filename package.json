@@ -15,5 +15,8 @@
     "server",
     "client",
     "shared"
-  ]
+  ],
+  "dependencies": {
+    "uuid": "^13.0.0"
+  }
 }
